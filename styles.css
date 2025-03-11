@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Container that holds sidebar and content */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 100px; /* Size of the circle */
+    height: 100px; /* Same as width to ensure the image is square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is cropped and scaled correctly */
+    border: 4px solid white; /* Optional: Adds a white border around the image */
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 20px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #444;
+}
+
+/* Main Content Styles */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.nav_right{
+    display: flex;
+}
+
+.navbar_right .icon_wrap{
+    cursor: pointer;
+
+}
